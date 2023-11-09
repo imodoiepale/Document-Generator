@@ -16,3 +16,17 @@ This React application is designed to generate documents based on predefined tem
 3. Click the "Download DOCX" button to download the document in DOCX format.
 4. Click the "Download PDF" button to download the document in PDF format.
 
+# Dependencies
+
+This project requires the following dependencies:
+
+- **react**: This is the main library for building the user interface of your application.
+- **file-saver**: This library enables you to save files on the client-side by implementing the HTML5 W3C saveAs() interface in browsers that do not natively support it.
+- **pizzip**: This library is used for reading and editing .docx templates.
+- **docxtemplater**: This library is used for replacing placeholders in the .docx template with actual data.
+- **docx-pdf**: This library is used for converting .docx files to .pdf format.
+
+You can install these dependencies by running the following command in your terminal:
+
+```bash
+npm install --save react file-saver pizzip docxtemplater docx-pdf
